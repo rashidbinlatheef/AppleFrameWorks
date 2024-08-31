@@ -16,6 +16,7 @@
 		5CE2DA252C82F6FB000EF8B7 /* FrameWorks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE2DA242C82F6FB000EF8B7 /* FrameWorks.swift */; };
 		5CE2DA2B2C82FB50000EF8B7 /* FrameWorkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE2DA2A2C82FB50000EF8B7 /* FrameWorkGridView.swift */; };
 		5CE2DA2D2C82FFC3000EF8B7 /* FrameworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE2DA2C2C82FFC3000EF8B7 /* FrameworkView.swift */; };
+		5CE2DA2F2C831620000EF8B7 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE2DA2E2C831620000EF8B7 /* FrameworkDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		5CE2DA242C82F6FB000EF8B7 /* FrameWorks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameWorks.swift; sourceTree = "<group>"; };
 		5CE2DA2A2C82FB50000EF8B7 /* FrameWorkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameWorkGridView.swift; sourceTree = "<group>"; };
 		5CE2DA2C2C82FFC3000EF8B7 /* FrameworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkView.swift; sourceTree = "<group>"; };
+		5CE2DA2E2C831620000EF8B7 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				5CE2DA2A2C82FB50000EF8B7 /* FrameWorkGridView.swift */,
+				5CE2DA2E2C831620000EF8B7 /* FrameworkDetailView.swift */,
 				5CE2DA2C2C82FFC3000EF8B7 /* FrameworkView.swift */,
 			);
 			path = Views;
@@ -280,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CE2DA2B2C82FB50000EF8B7 /* FrameWorkGridView.swift in Sources */,
+				5CE2DA2F2C831620000EF8B7 /* FrameworkDetailView.swift in Sources */,
 				5CE2DA252C82F6FB000EF8B7 /* FrameWorks.swift in Sources */,
 				5CE2D9FB2C82F6BD000EF8B7 /* AppleFrameworksApp.swift in Sources */,
 				5CE2DA2D2C82FFC3000EF8B7 /* FrameworkView.swift in Sources */,
