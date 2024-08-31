@@ -11,12 +11,16 @@ struct FrameWorkGridView: View {
     private let frameworks = MockData.frameworks
     private var columns = [GridItem(.adaptive(minimum: FrameworkView.minimumSize))]
     var body: some View {
-        ScrollView {
-            LazyVGrid(columns: columns) {
-                ForEach(frameworks, id: \.id) { framework in
-                    FrameworkView(imageName: framework.imageName, frameworkName: framework.name)
+    
+        NavigationStack {
+            ScrollView {
+                LazyVGrid(columns: columns) {
+                    ForEach(frameworks, id: \.id) { framework in
+                        FrameworkView(imageName: framework.imageName, frameworkName: framework.name)
+                    }
                 }
-            }
+            }.padding(.top, 10)
+            .navigationTitle("🍎 Apple Frameworks")
         }
     }
 }
