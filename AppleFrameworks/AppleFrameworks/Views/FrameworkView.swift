@@ -8,8 +8,12 @@
 import SwiftUI
 
 struct FrameworkView : View {
+    static let minimumSize: CGFloat = 100
+    static let maximumSize: CGFloat = 150
+
     let imageName: String
     let frameworkName: String
+    
     
     var body: some View {
         VStack {

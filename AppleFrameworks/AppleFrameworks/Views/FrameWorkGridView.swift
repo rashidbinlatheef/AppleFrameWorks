@@ -9,11 +9,7 @@ import SwiftUI
 
 struct FrameWorkGridView: View {
     private let frameworks = MockData.frameworks
-    private let columns: [GridItem] = [
-        GridItem(.flexible()),
-        GridItem(.flexible()),
-        GridItem(.flexible())
-    ]
+    private var columns = [GridItem(.adaptive(minimum: FrameworkView.minimumSize))]
     var body: some View {
         ScrollView {
             LazyVGrid(columns: columns) {
