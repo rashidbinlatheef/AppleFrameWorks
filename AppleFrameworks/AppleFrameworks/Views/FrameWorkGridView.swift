@@ -16,7 +16,7 @@ struct FrameWorkGridView: View {
             ScrollView {
                 LazyVGrid(columns: columns) {
                     ForEach(frameworks, id: \.id) { framework in
-                        FrameworkView(imageName: framework.imageName, frameworkName: framework.name)
+                        FrameworkView(framework: framework)
                     }
                 }
             }.padding(.top, 10)

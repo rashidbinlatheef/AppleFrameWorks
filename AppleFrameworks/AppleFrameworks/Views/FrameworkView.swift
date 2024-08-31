@@ -11,17 +11,15 @@ struct FrameworkView : View {
     static let minimumSize: CGFloat = 100
     static let maximumSize: CGFloat = 150
 
-    let imageName: String
-    let frameworkName: String
-    
+    let framework: Framework
     
     var body: some View {
         VStack {
-            Image(imageName)
+            Image(framework.imageName)
                 .resizable()
                 .frame(width: 90, height: 90)
                 .aspectRatio(contentMode: .fit)
-            Text(frameworkName)
+            Text(framework.name)
                 .font(.title3)
                 .fontWeight(.semibold)
                 .scaledToFit()
@@ -32,5 +30,5 @@ struct FrameworkView : View {
 
 
 #Preview {
-    FrameworkView(imageName: "app-clip", frameworkName: "App Clips")
+    FrameworkView(framework: MockData.sampleFramework)
 }
