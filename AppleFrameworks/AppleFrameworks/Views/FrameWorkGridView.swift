@@ -8,18 +8,19 @@
 import SwiftUI
 
 struct FrameWorkGridView: View {
+    private let frameworks = MockData.frameworks
     private let columns: [GridItem] = [
         GridItem(.flexible()),
         GridItem(.flexible()),
         GridItem(.flexible())
     ]
     var body: some View {
-        LazyVGrid(columns: columns) {
-            FrameworkView(imageName: "app-clip", frameworkName: "App Clips")
-            FrameworkView(imageName: "app-clip", frameworkName: "App Clips")
-            FrameworkView(imageName: "app-clip", frameworkName: "App Clips")
-            FrameworkView(imageName: "app-clip", frameworkName: "App Clips")
-            FrameworkView(imageName: "app-clip", frameworkName: "App Clips")
+        ScrollView {
+            LazyVGrid(columns: columns) {
+                ForEach(frameworks, id: \.id) { framework in
+                    FrameworkView(imageName: framework.imageName, frameworkName: framework.name)
+                }
+            }
         }
     }
 }
