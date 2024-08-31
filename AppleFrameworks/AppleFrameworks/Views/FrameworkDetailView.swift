@@ -8,31 +8,30 @@
 import SwiftUI
 
 struct FrameworkDetailView: View {
+    let framework: Framework
+    
     var body: some View {
-        ZStack {
-            LinearGradient(colors: [.black, .gray],
-                           startPoint: .topLeading,
-                           endPoint: .bottomTrailing)
-            VStack {
-                Spacer()
-                FrameworkView(framework: MockData.sampleFramework)
-                    .foregroundStyle(.white)
-                Text("afasfasfasfasfasfasf afafafafadfdsa afasfasfasfa sfasfasfafafafafadfdsa afasfasfasfasfasfasfafafafafadfdsa afasfasfasfas fasfasfafafafafadfdsa afasfasfasfasf asfasfaf afafafadfdsa afasfasfasfasfasfasfafafafafadfdsa afasfasfasfasfasfasfafafafafadfdsa afasfasfasfas fasfasfafafafafadfdsa")
-                    .padding(.top, 40)
-                    .padding(.horizontal, 16)
-                    .foregroundStyle(.white)
+        VStack {
+            HStack {
                 Spacer()
                 Button(action: {}, label: {
-                    PrimaryButton("Learn More")
-                }).padding(.bottom, 16)
+                    IconButton("xmark")
+                })
             }
-        }.ignoresSafeArea()
-        
+            Spacer()
+            FrameworkView(framework: framework)
+            Text(framework.description)
+                .padding(.top, 40)
+            Spacer()
+            Button(action: {}, label: {
+                PrimaryButton("Learn More")
+            }).padding(.bottom, 16)
+        }.padding(.horizontal, 16)
     }
 }
 
 #Preview {
-    FrameworkDetailView()
+    FrameworkDetailView(framework: MockData.sampleFramework)
 }
 
 struct PrimaryButton: View {
@@ -46,12 +45,32 @@ struct PrimaryButton: View {
     
     var body: some View {
         Text(title)
-            .frame(minWidth: 200, minHeight: 40)
+            .frame(minWidth: 280, minHeight: 50)
             .font(.title3)
             .fontWeight(.medium)
             .foregroundStyle(.white)
-            .padding(.all, 10)
             .background(backGroundColor)
             .clipShape(.rect(cornerRadius: 12))
     }
+}
+
+struct IconButton: View {
+    let iconName: String
+    let width: CGFloat
+    let height: CGFloat
+    
+    init(_ iconName: String,
+         width: CGFloat = 44.0,
+         height: CGFloat = 44.0) {
+        self.iconName = iconName
+        self.width = width
+        self.height = height
+    }
+    var body: some View {
+        Image(systemName: iconName)
+            .foregroundStyle(Color(.label))
+            .imageScale(.large)
+            .frame(width: width, height: height)
+    }
+    
 }
