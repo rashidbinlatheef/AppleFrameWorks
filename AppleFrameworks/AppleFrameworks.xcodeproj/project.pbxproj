@@ -18,6 +18,7 @@
 		5CE2DA2D2C82FFC3000EF8B7 /* FrameworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE2DA2C2C82FFC3000EF8B7 /* FrameworkView.swift */; };
 		5CE2DA2F2C831620000EF8B7 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE2DA2E2C831620000EF8B7 /* FrameworkDetailView.swift */; };
 		5CE2DA312C842CD1000EF8B7 /* FrameWorkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE2DA302C842CD1000EF8B7 /* FrameWorkGridViewModel.swift */; };
+		5CE2DA332C843554000EF8B7 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE2DA322C843554000EF8B7 /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		5CE2DA2C2C82FFC3000EF8B7 /* FrameworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkView.swift; sourceTree = "<group>"; };
 		5CE2DA2E2C831620000EF8B7 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 		5CE2DA302C842CD1000EF8B7 /* FrameWorkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameWorkGridViewModel.swift; sourceTree = "<group>"; };
+		5CE2DA322C843554000EF8B7 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				5CE2DA2A2C82FB50000EF8B7 /* FrameWorkGridView.swift */,
+				5CE2DA322C843554000EF8B7 /* SafariView.swift */,
 				5CE2DA302C842CD1000EF8B7 /* FrameWorkGridViewModel.swift */,
 				5CE2DA2E2C831620000EF8B7 /* FrameworkDetailView.swift */,
 				5CE2DA2C2C82FFC3000EF8B7 /* FrameworkView.swift */,
@@ -291,6 +294,7 @@
 				5CE2DA252C82F6FB000EF8B7 /* FrameWorks.swift in Sources */,
 				5CE2D9FB2C82F6BD000EF8B7 /* AppleFrameworksApp.swift in Sources */,
 				5CE2DA2D2C82FFC3000EF8B7 /* FrameworkView.swift in Sources */,
+				5CE2DA332C843554000EF8B7 /* SafariView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +465,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -489,6 +494,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

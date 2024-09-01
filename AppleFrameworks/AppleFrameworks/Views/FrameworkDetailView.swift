@@ -9,26 +9,25 @@ import SwiftUI
 
 struct FrameworkDetailView: View {
     let framework: Framework
-    @Environment(\.dismiss) var dismiss
+    @State private var showSafariView: Bool = false
+    
     var body: some View {
         VStack {
-            HStack {
-                Spacer()
-                Button(action: {
-                    dismiss()
-                }, label: {
-                    IconButton("xmark")
-                })
-            }
             Spacer()
             FrameworkView(framework: framework)
             Text(framework.description)
                 .padding(.top, 40)
             Spacer()
-            Button(action: {}, label: {
+            Button(action: {
+                showSafariView = true
+            }, label: {
                 PrimaryButton("Learn More")
             }).padding(.bottom, 16)
-        }.padding(.horizontal, 16)
+        }
+        .padding(.horizontal, 16)
+        .sheet(isPresented: $showSafariView, content: {
+            SafariView(url:  framework.urlString)
+        })
     }
 }
 

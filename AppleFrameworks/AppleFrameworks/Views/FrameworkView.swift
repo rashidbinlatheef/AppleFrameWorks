@@ -20,6 +20,7 @@ struct FrameworkView : View {
                 .frame(width: 90, height: 90)
                 .aspectRatio(contentMode: .fit)
             Text(framework.name)
+                .foregroundStyle(Color(.label))
                 .font(.title3)
                 .fontWeight(.semibold)
                 .scaledToFit()

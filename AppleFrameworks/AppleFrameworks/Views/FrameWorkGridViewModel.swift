@@ -8,10 +8,4 @@
 import Foundation
 
 final class FrameWorkGridViewModel: ObservableObject {
-    var selectedFramework: Framework? {
-        didSet {
-            showDetailView = true
-        }
-    }
-    @Published var showDetailView = false
 }
