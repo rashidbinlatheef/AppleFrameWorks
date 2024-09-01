@@ -9,14 +9,13 @@ import SwiftUI
 
 struct FrameworkDetailView: View {
     let framework: Framework
-    @Binding var isShowingDetailView: Bool
-    
+    @Environment(\.dismiss) var dismiss
     var body: some View {
         VStack {
             HStack {
                 Spacer()
                 Button(action: {
-                    isShowingDetailView = false
+                    dismiss()
                 }, label: {
                     IconButton("xmark")
                 })
@@ -34,7 +33,7 @@ struct FrameworkDetailView: View {
 }
 
 #Preview {
-    FrameworkDetailView(framework: MockData.sampleFramework, isShowingDetailView: .constant(false))
+    FrameworkDetailView(framework: MockData.sampleFramework)
 }
 
 struct PrimaryButton: View {

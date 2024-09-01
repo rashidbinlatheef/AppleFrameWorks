@@ -27,7 +27,7 @@ struct FrameWorkGridView: View {
             }.padding(.top, 10)
                 .navigationTitle("🍎 Apple Frameworks")
         }.sheet(isPresented: $viewModel.showDetailView, content: {
-            FrameworkDetailView(framework: viewModel.selectedFramework!, isShowingDetailView: $viewModel.showDetailView)
+            FrameworkDetailView(framework: viewModel.selectedFramework!)
         })
     }
 }
