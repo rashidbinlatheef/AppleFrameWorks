@@ -9,12 +9,15 @@ import SwiftUI
 
 struct FrameworkDetailView: View {
     let framework: Framework
+    @Binding var isShowingDetailView: Bool
     
     var body: some View {
         VStack {
             HStack {
                 Spacer()
-                Button(action: {}, label: {
+                Button(action: {
+                    isShowingDetailView = false
+                }, label: {
                     IconButton("xmark")
                 })
             }
@@ -31,7 +34,7 @@ struct FrameworkDetailView: View {
 }
 
 #Preview {
-    FrameworkDetailView(framework: MockData.sampleFramework)
+    FrameworkDetailView(framework: MockData.sampleFramework, isShowingDetailView: .constant(false))
 }
 
 struct PrimaryButton: View {
