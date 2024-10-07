@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C04C8242C916A9E0096BC24 /* NetworksHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C04C8232C916A9E0096BC24 /* NetworksHomeView.swift */; };
+		5C04C8262C916AAF0096BC24 /* NetworkCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C04C8252C916AAF0096BC24 /* NetworkCardView.swift */; };
+		5C04C8282C916C460096BC24 /* MyNetworkCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C04C8272C916C460096BC24 /* MyNetworkCarouselView.swift */; };
+		5C2610932CA2A9C800BC56B6 /* SuggestedNetworkCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2610922CA2A9C800BC56B6 /* SuggestedNetworkCard.swift */; };
+		5C7D376D2C97F16B0005E41F /* PagedCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7D376C2C97F16B0005E41F /* PagedCards.swift */; };
+		5C9B0D4C2C955AD300480A4F /* MasteryNetworkCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9B0D4B2C955AD300480A4F /* MasteryNetworkCard.swift */; };
+		5CCDD5422C98A12000AC661D /* NetworkLiveCallCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDD5412C98A12000AC661D /* NetworkLiveCallCard.swift */; };
+		5CCDD54A2C997BA800AC661D /* LeaveNetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDD5492C997BA800AC661D /* LeaveNetworkView.swift */; };
+		5CCDD54C2C997C8B00AC661D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDD54B2C997C8B00AC661D /* ContentView.swift */; };
+		5CCDD54F2C997CD800AC661D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CCDD54E2C997CD800AC661D /* ViewController.xib */; };
+		5CCDD5502C997CD800AC661D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDD54D2C997CD800AC661D /* ViewController.swift */; };
+		5CCDD5522C9984E200AC661D /* NGIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDD5512C9984E200AC661D /* NGIconButton.swift */; };
+		5CCDD5542C99860800AC661D /* BottomSheetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDD5532C99860800AC661D /* BottomSheetButton.swift */; };
 		5CE2D9FB2C82F6BD000EF8B7 /* AppleFrameworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE2D9FA2C82F6BD000EF8B7 /* AppleFrameworksApp.swift */; };
 		5CE2D9FF2C82F6BF000EF8B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CE2D9FE2C82F6BF000EF8B7 /* Assets.xcassets */; };
 		5CE2DA022C82F6BF000EF8B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CE2DA012C82F6BF000EF8B7 /* Preview Assets.xcassets */; };
@@ -19,6 +32,7 @@
 		5CE2DA2F2C831620000EF8B7 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE2DA2E2C831620000EF8B7 /* FrameworkDetailView.swift */; };
 		5CE2DA312C842CD1000EF8B7 /* FrameWorkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE2DA302C842CD1000EF8B7 /* FrameWorkGridViewModel.swift */; };
 		5CE2DA332C843554000EF8B7 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE2DA322C843554000EF8B7 /* SafariView.swift */; };
+		5CE59DD12CAD1E800077BD37 /* ShimmerModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE59DD02CAD1E800077BD37 /* ShimmerModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +53,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C04C8232C916A9E0096BC24 /* NetworksHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworksHomeView.swift; sourceTree = "<group>"; };
+		5C04C8252C916AAF0096BC24 /* NetworkCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCardView.swift; sourceTree = "<group>"; };
+		5C04C8272C916C460096BC24 /* MyNetworkCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworkCarouselView.swift; sourceTree = "<group>"; };
+		5C2610922CA2A9C800BC56B6 /* SuggestedNetworkCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestedNetworkCard.swift; sourceTree = "<group>"; };
+		5C7D376C2C97F16B0005E41F /* PagedCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagedCards.swift; sourceTree = "<group>"; };
+		5C9B0D4B2C955AD300480A4F /* MasteryNetworkCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasteryNetworkCard.swift; sourceTree = "<group>"; };
+		5CCDD5412C98A12000AC661D /* NetworkLiveCallCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLiveCallCard.swift; sourceTree = "<group>"; };
+		5CCDD5492C997BA800AC661D /* LeaveNetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveNetworkView.swift; sourceTree = "<group>"; };
+		5CCDD54B2C997C8B00AC661D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5CCDD54D2C997CD800AC661D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5CCDD54E2C997CD800AC661D /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		5CCDD5512C9984E200AC661D /* NGIconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NGIconButton.swift; sourceTree = "<group>"; };
+		5CCDD5532C99860800AC661D /* BottomSheetButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetButton.swift; sourceTree = "<group>"; };
 		5CE2D9F72C82F6BD000EF8B7 /* AppleFrameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleFrameworks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CE2D9FA2C82F6BD000EF8B7 /* AppleFrameworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFrameworksApp.swift; sourceTree = "<group>"; };
 		5CE2D9FE2C82F6BF000EF8B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,6 +81,7 @@
 		5CE2DA2E2C831620000EF8B7 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 		5CE2DA302C842CD1000EF8B7 /* FrameWorkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameWorkGridViewModel.swift; sourceTree = "<group>"; };
 		5CE2DA322C843554000EF8B7 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		5CE59DD02CAD1E800077BD37 /* ShimmerModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,11 +177,25 @@
 		5CE2DA272C82FB0D000EF8B7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				5CE2DA2A2C82FB50000EF8B7 /* FrameWorkGridView.swift */,
+				5CCDD5492C997BA800AC661D /* LeaveNetworkView.swift */,
+				5CCDD5532C99860800AC661D /* BottomSheetButton.swift */,
+				5CCDD54D2C997CD800AC661D /* ViewController.swift */,
+				5CCDD54E2C997CD800AC661D /* ViewController.xib */,
+				5C7D376C2C97F16B0005E41F /* PagedCards.swift */,
+				5CCDD5512C9984E200AC661D /* NGIconButton.swift */,
+				5CCDD54B2C997C8B00AC661D /* ContentView.swift */,
 				5CE2DA322C843554000EF8B7 /* SafariView.swift */,
+				5CE2DA2A2C82FB50000EF8B7 /* FrameWorkGridView.swift */,
 				5CE2DA302C842CD1000EF8B7 /* FrameWorkGridViewModel.swift */,
 				5CE2DA2E2C831620000EF8B7 /* FrameworkDetailView.swift */,
+				5CE59DD02CAD1E800077BD37 /* ShimmerModifier.swift */,
 				5CE2DA2C2C82FFC3000EF8B7 /* FrameworkView.swift */,
+				5C04C8232C916A9E0096BC24 /* NetworksHomeView.swift */,
+				5C04C8252C916AAF0096BC24 /* NetworkCardView.swift */,
+				5C2610922CA2A9C800BC56B6 /* SuggestedNetworkCard.swift */,
+				5C9B0D4B2C955AD300480A4F /* MasteryNetworkCard.swift */,
+				5CCDD5412C98A12000AC661D /* NetworkLiveCallCard.swift */,
+				5C04C8272C916C460096BC24 /* MyNetworkCarouselView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -263,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CE2DA022C82F6BF000EF8B7 /* Preview Assets.xcassets in Resources */,
+				5CCDD54F2C997CD800AC661D /* ViewController.xib in Resources */,
 				5CE2D9FF2C82F6BF000EF8B7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,12 +331,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CE59DD12CAD1E800077BD37 /* ShimmerModifier.swift in Sources */,
+				5CCDD5542C99860800AC661D /* BottomSheetButton.swift in Sources */,
 				5CE2DA2B2C82FB50000EF8B7 /* FrameWorkGridView.swift in Sources */,
+				5CCDD5422C98A12000AC661D /* NetworkLiveCallCard.swift in Sources */,
+				5C7D376D2C97F16B0005E41F /* PagedCards.swift in Sources */,
 				5CE2DA312C842CD1000EF8B7 /* FrameWorkGridViewModel.swift in Sources */,
+				5C04C8242C916A9E0096BC24 /* NetworksHomeView.swift in Sources */,
 				5CE2DA2F2C831620000EF8B7 /* FrameworkDetailView.swift in Sources */,
 				5CE2DA252C82F6FB000EF8B7 /* FrameWorks.swift in Sources */,
 				5CE2D9FB2C82F6BD000EF8B7 /* AppleFrameworksApp.swift in Sources */,
+				5C9B0D4C2C955AD300480A4F /* MasteryNetworkCard.swift in Sources */,
+				5CCDD54A2C997BA800AC661D /* LeaveNetworkView.swift in Sources */,
 				5CE2DA2D2C82FFC3000EF8B7 /* FrameworkView.swift in Sources */,
+				5CCDD5522C9984E200AC661D /* NGIconButton.swift in Sources */,
+				5CCDD54C2C997C8B00AC661D /* ContentView.swift in Sources */,
+				5C04C8282C916C460096BC24 /* MyNetworkCarouselView.swift in Sources */,
+				5C04C8262C916AAF0096BC24 /* NetworkCardView.swift in Sources */,
+				5C2610932CA2A9C800BC56B6 /* SuggestedNetworkCard.swift in Sources */,
+				5CCDD5502C997CD800AC661D /* ViewController.swift in Sources */,
 				5CE2DA332C843554000EF8B7 /* SafariView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

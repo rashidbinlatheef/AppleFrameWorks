@@ -11,9 +11,9 @@ import SwiftUI
 
 struct SafariView : UIViewControllerRepresentable {
     let url: String
-    func makeUIViewController(context: UIViewControllerRepresentableContext<SafariView>) -> SFSafariViewController {
-        SFSafariViewController(url: URL(string: url) ?? URL(string: "www.apple.com")!)
+    func makeUIViewController(context: UIViewControllerRepresentableContext<SafariView>) -> UIViewController {
+        ViewController(nibName: "ViewController", bundle: nil)
     }
 
-    func updateUIViewController(_ uiViewController: SFSafariViewController, context: UIViewControllerRepresentableContext<SafariView>) {}
+    func updateUIViewController(_ uiViewController: UIViewController, context: UIViewControllerRepresentableContext<SafariView>) {}
 }

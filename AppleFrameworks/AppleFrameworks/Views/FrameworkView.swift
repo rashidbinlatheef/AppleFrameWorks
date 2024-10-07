@@ -33,3 +33,22 @@ struct FrameworkView : View {
 #Preview {
     FrameworkView(framework: MockData.sampleFramework)
 }
+
+
+
+//var body: some View {
+//    HStack(spacing: 15) {
+//        Image("img-empty-event")
+//            .scaledToFill()
+//            .frame(width: 87, height: 49)
+//            .cornerRadius(5)
+//        
+//        VStack(spacing: 2) {
+//            Text("AI Mastery")
+//            Text("Updated 9m ago")
+//        }
+//        Spacer()
+//        NGButton(title: "Join", style: .primary, size: .xsmall) {
+//        }
+//    }
+//}
